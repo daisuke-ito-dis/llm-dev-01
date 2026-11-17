@@ -1,5 +1,5 @@
 FROM ghcr.io/open-webui/open-webui:ollama
-ARG MODEL=hf.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF:Q4_K_M
+ARG MODEL=hf.co/bartowski/Qwen2.5-0.5B-Instruct-GGUF:Q4_K_M
 ENV MODEL=${MODEL} \
     OLLAMA_MODELS=/opt/ollama/models \
     HOME=/tmp/home \
